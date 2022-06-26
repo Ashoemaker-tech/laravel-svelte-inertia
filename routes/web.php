@@ -1,6 +1,5 @@
 <?php
 
-use inertia;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return inertia('welcome');
+    return inertia('Welcome');
 });
